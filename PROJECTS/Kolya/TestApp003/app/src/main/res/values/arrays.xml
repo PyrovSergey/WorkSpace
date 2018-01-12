@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="DB_names">
+        <item>@string/DBSport</item>
+        <item>@string/DBNotes</item>
+        <item>@string/DBCommonBase</item>
+    </string-array>
+
+</resources>

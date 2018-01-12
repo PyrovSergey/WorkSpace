@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">HelloAndroid</string>
+    <string name="company_name">Udacity</string>
+    <string name="address_1">2465 Latham St</string>
+    <string name="address_2">Mountain View, CA 94043</string>
+    <string name="telephone_number">650-555-5555</string>
+    <string name="website">www.udacity.com</string>
+    <string name="call_us">CALL US</string>
+    <string name="visit_website">VISIT WEBSITE</string>
+</resources>

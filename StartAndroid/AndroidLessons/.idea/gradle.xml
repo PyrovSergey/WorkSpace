@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/p0081_ViewById" />
+            <option value="$PROJECT_DIR$/p0091_OnClickButtons" />
+            <option value="$PROJECT_DIR$/p0101(2)_Listener" />
+            <option value="$PROJECT_DIR$/p0101_Listener" />
+            <option value="$PROJECT_DIR$/p0102_ActivityListener" />
+            <option value="$PROJECT_DIR$/p0111_ResValues" />
+            <option value="$PROJECT_DIR$/p0121_LogAndMess" />
+            <option value="$PROJECT_DIR$/p0131_MenuSimple" />
+            <option value="$PROJECT_DIR$/p0141_MenuAdv" />
+            <option value="$PROJECT_DIR$/p0151_ContextMenu" />
+            <option value="$PROJECT_DIR$/p0151_ContextMenu_SelfMade" />
+            <option value="$PROJECT_DIR$/p0161_DynamicLayout" />
+            <option value="$PROJECT_DIR$/p0171_DynamicLayout2" />
+            <option value="$PROJECT_DIR$/p0181_DynamicLayout3" />
+            <option value="$PROJECT_DIR$/p0191_SimpleCalculator" />
+            <option value="$PROJECT_DIR$/p0191_SimpleCalculator_SelfMade" />
+            <option value="$PROJECT_DIR$/p0261_IntentFilter" />
+            <option value="$PROJECT_DIR$/p0271_GetIntentAction" />
+            <option value="$PROJECT_DIR$/p0281_IntentExtras" />
+            <option value="$PROJECT_DIR$/p0281_IntentExtras_SelfMade" />
+            <option value="$PROJECT_DIR$/p0291_SimpleActivityResult" />
+            <option value="$PROJECT_DIR$/p0301_ActivityResult" />
+            <option value="$PROJECT_DIR$/p0311_SimpleIntents_1" />
+            <option value="$PROJECT_DIR$/p0321_SimpleBrowser" />
+            <option value="$PROJECT_DIR$/p0331_SharedPreferences" />
+            <option value="$PROJECT_DIR$/p0341_SimpleSQLite" />
+            <option value="$PROJECT_DIR$/p0361_SQLiteQuery" />
+            <option value="$PROJECT_DIR$/p0371_SQLiteInnerJoin" />
+            <option value="$PROJECT_DIR$/p0381_SQLiteTransaction" />
+            <option value="$PROJECT_DIR$/p0401_LayoutInflater" />
+          </set>
+        </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

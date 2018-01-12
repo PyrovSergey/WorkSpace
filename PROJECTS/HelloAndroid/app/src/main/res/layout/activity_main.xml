@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="udacity.com.helloandroid.MainActivity">
+
+
+    <ImageView
+        android:id="@+id/picture"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
+        android:src="@drawable/title" />
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/text_view"
+        android:layout_marginBottom="40dp"
+        android:layout_marginLeft="50dp">
+
+        <TableRow>
+
+            <TextView
+                android:layout_marginBottom="16dp"
+                android:text="@string/company_name"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:text="@string/address_1"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:text="@string/address_2"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:text="@string/telephone_number"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:text="@string/website"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" />
+        </TableRow>
+
+    </TableLayout>
+
+    <LinearLayout
+        android:id="@+id/text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:onClick="startCall"
+            android:text="@string/call_us" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:onClick="startBrowser"
+            android:text="@string/visit_website" />
+    </LinearLayout>
+
+</RelativeLayout>

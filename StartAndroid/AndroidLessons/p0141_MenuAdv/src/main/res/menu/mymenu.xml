@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_add"
+        android:enabled="true"
+        android:title="add"
+        android:visible="true"></item>
+    <item
+        android:id="@+id/menu_edit"
+        android:checkable="false"
+        android:enabled="true"
+        android:title="edit"
+        android:visible="true"></item>
+    <item
+        android:id="@+id/menu_delete"
+        android:enabled="true"
+        android:orderInCategory="3"
+        android:title="delete"
+        android:visible="true"></item>
+    <group
+        android:id="@+id/group1"
+        android:enabled="true"
+        android:visible="true">
+        <item
+            android:id="@+id/menu_copy"
+            android:enabled="true"
+            android:orderInCategory="1"
+            android:title="copy"
+            android:visible="true"></item>
+        <item
+            android:id="@+id/menu_paste"
+            android:enabled="true"
+            android:orderInCategory="2"
+            android:title="paste"
+            android:visible="true"></item>
+        <item
+            android:id="@+id/menu_exit"
+            android:enabled="true"
+            android:orderInCategory="4"
+            android:title="exit"
+            android:visible="true"></item>
+    </group>
+</menu>
